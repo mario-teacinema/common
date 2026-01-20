@@ -1,4 +1,4 @@
-export enum RpCStatus {
+export enum RpcStatus {
   OK = 0,
   CANCELED = 1,
   UNKNOWN = 2, // 500
