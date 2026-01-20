@@ -1,0 +1,36 @@
+{
+  "name": "@mario-teacinema/common",
+  "version": "1.0.0",
+  "description": "Core shared components for TeaCinema microservices ecosystem",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "ISC",
+  "author": {
+    "name": "Pavel",
+    "email": "x-chekushkin-pavel@yandex.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mario-teacinema/common.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "format": "prettier --write \"lib/**/*.ts\""
+  },
+  "devDependencies": {
+    "@mario-teacinema/core": "1.0.3",
+    "@types/node": "25.0.9",
+    "prettier": "3.8.0",
+    "typescript": "5.9.3"
+  }
+}
