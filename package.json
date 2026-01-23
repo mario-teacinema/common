@@ -1,7 +1,8 @@
 {
   "name": "@mario-teacinema/common",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Core shared components for TeaCinema microservices ecosystem",
+  "type": "commonjs",
   "publishConfig": {
     "access": "public"
   },
